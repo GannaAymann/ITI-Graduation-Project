@@ -1,0 +1,35 @@
+.checkout_container {
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payment_form {
+  width: 100%;
+}
+.userInfo {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.checkout__button {
+  background-color: rgba(109, 84, 222, 1);
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  word-break: keep-all;
+}
+@media screen and (min-width: 768px) {
+  .checkout_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    height: 95vh;
+    gap: 30px;
+    /* align-items: center; */
+  }
+}
